@@ -1,0 +1,43 @@
+.myCustomCalendar {
+    width: 533px !important; /* previously was 33em */
+    height: 252px !important;
+    font-size: 8px !important;
+    font: bold;
+    font-family: 'Nanum Barun Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.myCustomCalendar .Calendar__section.-hiddenNext {
+  transform: translateX(100%); /* previously was 90% */
+}
+
+.myCustomCalendar .Calendar__section.-hiddenPrevious {
+  transform: translateX(-100%); /* previously was -90% */
+}
+
+.myCustomCalendar .Calendar__section {
+  padding: 0 1em; /* previously was 0 3.2em */
+}
+
+.myCustomCalendar .Calendar__sectionWrapper {
+  min-height: 22em;
+}
+
+.myCustomCalendar .Calendar__weekDays {
+  padding: 0 0.8em; /* previously was 0 2.6em */
+  color: black;
+}
+
+.sim-calendar-btn {
+  border: #0fbcf9;
+  background-color: #0fbcf9;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: 'Nanum Barun Gothic Bold', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

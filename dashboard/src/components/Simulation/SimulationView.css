@@ -1,0 +1,172 @@
+#global-background {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+  z-index: -2;
+}
+
+.sim-barchart {
+  position: absolute;
+  overflow: visible;
+  width: 543px;
+  height: 681px;
+  left: 1343px;
+  top: 17px;
+}
+
+#sim-linechart-rect {
+  filter: blur(50px);
+  fill: rgba(255,255,255,0.3);
+  
+}
+.sim-linechart-svg {
+  position: absolute;
+  overflow: visible;
+  width: 1306px;
+  height: 681px;
+  left: 17px;
+  top: 350px;
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.sim-linechart-wrapper {
+  position: relative;
+  padding: 10px;
+  width: 1306px;
+  height: 681px;
+  left: 17px;
+  top: 350px;
+}
+#sim-linechart-title {
+  left: 27px;
+  top: 26px;
+  position: static;
+  overflow: visible;
+  width: 114px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Nanum Barun Gothic Bold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+  letter-spacing: -0.4px;
+}
+
+.sim-linechart-nodata {
+  color: grey; 
+  font-family: 'Nanum Barun Gothic Bold', sans-serif; 
+  font-size: 60px; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+  margin-top: 250px;
+}
+
+#sim-history-rect {
+  filter: blur(50px);
+  fill: rgba(255,255,255,1);
+}
+.sim-history-svg {
+  position: absolute;
+  overflow: visible;
+  width: 543px;
+  height: 1040px;
+  left: 1343px;
+  top: 17px;
+  backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.sim-rightside-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  overflow: visible;
+  width: 543px;
+  height: 1040px;
+  left: 1343px;
+  top: 17px;
+  border-radius: 10px;
+}
+
+.sim-calendar-wrapper {
+  overflow: visible;
+  /* top: 17px; */
+}
+
+.sim-history-wrapper {
+  overflow: visible;
+  transform: matrix(1,0,0,1,0,0);
+}
+
+#Simulation_History {
+  overflow: visible;
+  width: 134px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Nanum Barun Gothic Bold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,0,0,1);
+  letter-spacing: -0.4px;
+}
+
+.sim-btn-wrapper {
+  position: absolute;
+  display: flex;
+  left: 115px;
+  top: 17px;
+  margin-top: 2px;
+  z-index: 2;
+}
+
+.sim-btn {
+  width: 70px;
+  color: #0099CC;
+  background: transparent;
+  border: 2px solid #0099CC;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 0.1rem 0.1rem;
+  text-align: center;
+}
+
+.sim-summary-nodata {
+  color: grey; 
+  font-family: 'Nanum Barun Gothic Bold', sans-serif; 
+  font-size: 60px; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+.sim-summary-title {
+  overflow: visible;
+  width: 114px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Nanum Barun Gothic Bold', sans-serif; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+  letter-spacing: -0.4px;
+  margin-left: 5px;
+  margin-top: 5px
+}
+
+.csv-download {
+  font-family: 'Nanum Barun Gothic Bold', sans-serif; 
+  font-style: normal;
+  font-weight: normal;
+}

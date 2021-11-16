@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+    dashboard:
+        build:
+            context: ./dashboard
+            dockerfile: Dockerfile
+        container_name: dashboard
+        hostname: dashboard
+        ports:
+            - 9999:9999
+    mock_server:
+        build:
+            context: ./mock_server
+            dockerfile: Dockerfile
+        container_name: mock_server
+        hostname: mock_server
+        ports:
+            - 4000:4000

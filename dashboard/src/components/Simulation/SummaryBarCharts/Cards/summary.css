@@ -1,0 +1,40 @@
+.summary-grid {
+  position: absolute;
+  display: grid;
+  grid-gap: 0px;
+  align-items: stretch;
+  width: 1306px;
+  height: 310px;
+  top: 17px;
+  left: 17px;
+  grid-template-columns: auto;
+  background-color: rgba(242, 197, 19, 1);
+  border-radius: 10px;
+  
+}
+
+.bar-chart-grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  max-width: 1306px;  
+}
+
+.summary-card {
+  margin: 0.5rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  min-height: 193px;
+  font-family: 'Nanum Barun Gothic Bold', sans-serif; 
+  font-style: normal;
+  font-weight: normal;
+}
+
+.comment-card {
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0.3rem 0.3rem;
+  font-family: 'Nanum Barun Gothic Bold', sans-serif; 
+  font-style: normal;
+  font-weight: normal;
+}

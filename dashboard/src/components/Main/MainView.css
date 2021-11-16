@@ -1,0 +1,1934 @@
+.mediaViewInfo {
+    --web-view-name: MCHORD_00_DIgitalTwin_02_믈류01;
+    --web-view-id: MCHORD_00_DIgitalTwin_02_01;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: MCHORD_00_DIgitalTwin_02_01;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#MCHORD_00_DIgitalTwin_02_01 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255,255,255,0);
+    overflow: hidden;
+    --web-view-name: MCHORD_00_DIgitalTwin_02_믈류01;
+    --web-view-id: MCHORD_00_DIgitalTwin_02_01;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#n_385 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#stock-linechart-rect {
+    filter: blur(50px);
+    fill: rgba(255,255,255,0.3);
+    width: 924px;
+    height: 538px;
+}
+.stock-linechart-svg {
+    position: absolute;
+    overflow: visible;
+    width: 924px;
+    height: 538px;
+    left: 17px;
+    top: 17px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.stock-linechart-wrapper {
+  position: relative;
+  padding: 0px 10px;
+  width: 924px;
+  height: 538px;
+  left: 17px;
+  top: 17px;
+}
+
+#n_6045 {
+    fill: rgba(0,44,95,1);
+}
+.n_6045 {
+    position: absolute;
+    overflow: visible;
+    width: 453px;
+    height: 538px;
+    left: 961px;
+    top: 17px;
+}
+#n_6046 {
+    fill: rgba(242,197,19,1);
+}
+.n_6046 {
+    position: absolute;
+    overflow: visible;
+    width: 452px;
+    height: 538px;
+    left: 1434px;
+    top: 17px;
+}
+#n_ {
+    left: 27px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -0.4px;
+}
+#n__ {
+    left: 971px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(242,197,19,1);
+    letter-spacing: -0.4px;
+}
+#n___ {
+    left: 1444px;
+    top: 26px;
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -0.4px;
+}
+#n_19041 {
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: 897px;
+    top: 1024px;
+    overflow: visible;
+}
+#n_814 {
+    fill: rgba(241,243,248,1);
+}
+.n_814 {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 44px;
+    top: 0px;
+}
+#n_816 {
+    fill: rgba(241,243,248,1);
+}
+.n_816 {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 88px;
+    top: 0px;
+}
+#n_815 {
+    fill: rgba(0,44,95,1);
+}
+.n_815 {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+#goodsreceipt-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 217px);
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    width: 924px;
+    height: 415px;
+    left: 17px;
+    top: 575px;
+    overflow: visible;
+    border-radius: 10px;
+}
+#n_6049 {
+    fill: transparent;
+}
+.goodsbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 217px;
+  height: 175px;
+  left: 462px;
+  top: 45px;
+}
+.goodsbox-title {
+  opacity: 0.8;
+  position: relative;
+  overflow: visible;
+  line-height: 20px;  
+  font-family: Nanum Barun Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(0,44,95,1);
+}
+
+.goodsbox-value.delay {
+    color: rgba(255, 0, 0, 1);
+}
+
+.goodsbox-value {
+    position: relative;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+
+
+
+#goodsreceipt-rect {
+    filter: blur(50px);
+    fill: rgba(255,255,255,0.3);
+}
+.goodsreceipt-svg {
+    position: absolute;
+    overflow: visible;
+    width: 924px;
+    height: 415px;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#n__bc {
+    left: 10px;
+    top: 9px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -0.4px;
+}
+#n_6009 {
+    fill: transparent;
+}
+.n_6009 {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 10px;
+    top: 45px;
+}
+#n_6051 {
+    fill: transparent;
+}
+.n_6051 {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 10px;
+    top: 230px;
+}
+#n_6048 {
+    fill: transparent;
+}
+.n_6048 {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 236px;
+    top: 45px;
+}
+#n_6052 {
+    fill: transparent;
+}
+.n_6052 {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 236px;
+    top: 230px;
+}
+
+#n_6053 {
+    fill: transparent;
+}
+.n_6053 {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 462px;
+    top: 230px;
+}
+#n_6050 {
+    fill: transparent;
+}
+.n_6050 {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 689px;
+    top: 45px;
+}
+#n_6054 {
+    fill: transparent;
+}
+.n_6054 {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 689px;
+    top: 230px;
+}
+#n_19758 {
+    position: absolute;
+    width: 132px;
+    height: 80px;
+    left: 52px;
+    top: 102px;
+    overflow: visible;
+}
+#n_254 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19854 {
+    position: absolute;
+    width: 132px;
+    height: 80px;
+    left: 52px;
+    top: 287px;
+    overflow: visible;
+}
+#n_254_bo {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19851 {
+    position: absolute;
+    width: 132px;
+    height: 80px;
+    left: 278px;
+    top: 102px;
+    overflow: visible;
+}
+#n_535 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19855 {
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    left: 298px;
+    top: 287px;
+    overflow: visible;
+}
+#n_09 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19852 {
+    position: absolute;
+    width: 32px;
+    height: 80px;
+    left: 555px;
+    top: 102px;
+    overflow: visible;
+}
+#n__bu {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(255,0,0,1);
+    letter-spacing: -0.4px;
+}
+#n_19856 {
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    left: 525px;
+    top: 287px;
+    overflow: visible;
+}
+#n_14 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(255,0,0,1);
+    letter-spacing: -0.4px;
+}
+#n_19853 {
+    position: absolute;
+    width: 62px;
+    height: 80px;
+    left: 767px;
+    top: 102px;
+    overflow: visible;
+}
+#n_7 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19857 {
+    position: absolute;
+    width: 62px;
+    height: 80px;
+    left: 767px;
+    top: 287px;
+    overflow: visible;
+}
+#n_7_b {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#Text_b {
+    opacity: 0.8;
+    left: 59px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_ca {
+    opacity: 0.8;
+    left: 285px;
+    top: 76px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_cb {
+    opacity: 0.8;
+    left: 285px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_cc {
+    opacity: 0.8;
+    left: 512px;
+    top: 76px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_cd {
+    opacity: 0.8;
+    left: 512px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Comments {
+    opacity: 0.8;
+    left: 755px;
+    top: 77px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Comments_b {
+    opacity: 0.8;
+    left: 755px;
+    top: 262px;
+    position: absolute;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#n_1236 {
+    fill: transparent;
+    stroke: rgba(191,205,217,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1236 {
+    overflow: visible;
+    position: absolute;
+    width: 836px;
+    height: 1px;
+    left: 40.5px;
+    top: 210px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#goodsrelease-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 217px);
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    width: 925px;
+    height: 415px;
+    left: 961px;
+    top: 575px;
+    overflow: visible;
+}
+#n_6047_cb {
+    filter: blur(50px);
+    fill: rgba(255,255,255,0.3);
+}
+.n_6047_cb {
+    position: absolute;
+    overflow: visible;
+    width: 925px;
+    height: 415px;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#goodsrelease-title {
+    left: 10px;
+    top: 9px;
+    position: absolute;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -0.4px;
+}
+#n_6009_cd {
+    fill: transparent;
+}
+.n_6009_cd {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 10px;
+    top: 45px;
+}
+#n_6051_ce {
+    fill: transparent;
+}
+.n_6051_ce {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 10px;
+    top: 230px;
+}
+#n_6048_cf {
+    fill: transparent;
+}
+.n_6048_cf {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 236px;
+    top: 45px;
+}
+#n_6052_cg {
+    fill: transparent;
+}
+.n_6052_cg {
+    position: absolute;
+    overflow: visible;
+    width: 216px;
+    height: 175px;
+    left: 236px;
+    top: 230px;
+}
+#n_6049_ch {
+    fill: transparent;
+}
+.n_6049_ch {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 462px;
+    top: 45px;
+}
+#n_6053_ci {
+    fill: transparent;
+}
+.n_6053_ci {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 462px;
+    top: 230px;
+}
+#n_6050_cj {
+    fill: transparent;
+}
+.n_6050_cj {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 689px;
+    top: 45px;
+}
+#n_6054_ck {
+    fill: transparent;
+}
+.n_6054_ck {
+    position: absolute;
+    overflow: visible;
+    width: 217px;
+    height: 175px;
+    left: 689px;
+    top: 230px;
+}
+#n_19758_cl {
+    position: absolute;
+    width: 132px;
+    height: 80px;
+    left: 52px;
+    top: 102px;
+    overflow: visible;
+}
+#n_254_cm {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19854_cn {
+    position: absolute;
+    width: 132px;
+    height: 80px;
+    left: 52px;
+    top: 287px;
+    overflow: visible;
+}
+#n_254_co {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19851_cp {
+    position: absolute;
+    width: 132px;
+    height: 80px;
+    left: 278px;
+    top: 102px;
+    overflow: visible;
+}
+#n_535_cq {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19855_cr {
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    left: 298px;
+    top: 287px;
+    overflow: visible;
+}
+#n_09_cs {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19852_ct {
+    position: absolute;
+    width: 32px;
+    height: 80px;
+    left: 555px;
+    top: 102px;
+    overflow: visible;
+}
+#n__cu {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19856_cv {
+    position: absolute;
+    width: 92px;
+    height: 80px;
+    left: 525px;
+    top: 287px;
+    overflow: visible;
+}
+#n_14_cw {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19853_cx {
+    position: absolute;
+    width: 62px;
+    height: 80px;
+    left: 767px;
+    top: 102px;
+    overflow: visible;
+}
+#n_7_cy {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#n_19857_cz {
+    position: absolute;
+    width: 62px;
+    height: 80px;
+    left: 767px;
+    top: 287px;
+    overflow: visible;
+}
+#n_7_c {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(255,0,0,1);
+    letter-spacing: -0.4px;
+}
+#Text_c {
+    opacity: 0.8;
+    left: 59px;
+    top: 76px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_da {
+    opacity: 0.8;
+    left: 59px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_db {
+    opacity: 0.8;
+    left: 285px;
+    top: 76px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_dc {
+    opacity: 0.8;
+    left: 285px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_dd {
+    opacity: 0.8;
+    left: 512px;
+    top: 76px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_de {
+    opacity: 0.8;
+    left: 512px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#n__c {
+    opacity: 0.8;
+    left: 751px;
+    top: 76px;
+    position: absolute;
+    overflow: visible;
+    width: 95px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Text_df {
+    opacity: 0.8;
+    left: 762px;
+    top: 261px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#n_1237 {
+    fill: transparent;
+    stroke: rgba(191,205,217,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1237 {
+    overflow: visible;
+    position: absolute;
+    width: 836px;
+    height: 1px;
+    left: 40.5px;
+    top: 210px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#graph {
+    position: absolute;
+    width: 883px;
+    height: 474px;
+    left: 27px;
+    top: 61px;
+    overflow: visible;
+}
+#n_19762 {
+    position: absolute;
+    width: 883px;
+    height: 474px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n_19763 {
+    position: absolute;
+    width: 872px;
+    height: 19px;
+    left: 11px;
+    top: 455px;
+    overflow: visible;
+}
+#n__dd {
+    left: 284px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__de {
+    left: 144px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__df {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__dg {
+    left: 427px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__dh {
+    left: 569px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__di {
+    left: 712px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__dj {
+    left: 839px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 34px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n_19919 {
+    position: absolute;
+    width: 23px;
+    height: 461px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n__dl {
+    left: 14px;
+    top: 442px;
+    position: absolute;
+    overflow: visible;
+    width: 9px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__dm {
+    left: 6px;
+    top: 295px;
+    position: absolute;
+    overflow: visible;
+    width: 16px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__dn {
+    left: 5px;
+    top: 147px;
+    position: absolute;
+    overflow: visible;
+    width: 16px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n__do {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(60,94,133,1);
+}
+#n_19920 {
+    position: absolute;
+    width: 843px;
+    height: 442px;
+    left: 30px;
+    top: 11.5px;
+    overflow: visible;
+}
+#n_1017 {
+    fill: transparent;
+    stroke: rgba(191,205,217,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1017 {
+    overflow: visible;
+    position: absolute;
+    width: 843px;
+    height: 1px;
+    left: 0px;
+    top: 147px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_1019 {
+    fill: transparent;
+    stroke: rgba(191,205,217,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1019 {
+    overflow: visible;
+    position: absolute;
+    width: 843px;
+    height: 1px;
+    left: 0px;
+    top: 295px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_1018 {
+    fill: transparent;
+    stroke: rgba(191,205,217,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1018 {
+    overflow: visible;
+    position: absolute;
+    width: 843px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_51 {
+    fill: transparent;
+    stroke: rgba(141,161,185,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: square;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_51 {
+    overflow: visible;
+    position: absolute;
+    width: 845px;
+    height: 2px;
+    left: 0px;
+    top: 442px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_20015 {
+    position: absolute;
+    width: 844.003px;
+    height: 338.475px;
+    left: 30px;
+    top: 114px;
+    overflow: visible;
+}
+#n_19867 {
+    position: absolute;
+    width: 844.003px;
+    height: 332.611px;
+    left: 0px;
+    top: 5.864px;
+    overflow: visible;
+}
+#n_17686_dx {
+    opacity: 0.3;
+    fill: url(#n_17686_dx);
+}
+.n_17686_dx {
+    overflow: visible;
+    position: absolute;
+    width: 844.003px;
+    height: 332.611px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_17686 {
+    fill: transparent;
+    stroke: rgba(60,94,133,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Path_17686 {
+    overflow: visible;
+    position: absolute;
+    width: 847.569px;
+    height: 146.182px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_17686_dz {
+    fill: transparent;
+    stroke: rgba(255,211,38,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Path_17686_dz {
+    overflow: visible;
+    position: absolute;
+    width: 847px;
+    height: 76.144px;
+    left: 0px;
+    top: 6px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_19921 {
+    position: absolute;
+    width: 18px;
+    height: 315px;
+    left: 443px;
+    top: 139px;
+    overflow: visible;
+}
+#n_1020 {
+    fill: transparent;
+    stroke: rgba(141,161,185,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-dasharray: 4 4;
+    stroke-dashoffset: 0;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1020 {
+    overflow: visible;
+    position: absolute;
+    width: 2px;
+    height: 311px;
+    left: 9px;
+    top: 4px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_1497 {
+    fill: rgba(255,211,38,1);
+    stroke: rgba(255,255,255,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1497 {
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+}
+#n_19900 {
+    position: absolute;
+    width: 87px;
+    height: 81px;
+    left: 410px;
+    top: 52px;
+    overflow: visible;
+    padding: 10px 15px 11px 15px;
+}
+#n_31 {
+    fill: rgba(255,255,255,1);
+}
+.n_31 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    overflow: visible;
+    position: absolute;
+    width: 106.999px;
+    height: 97.998px;
+    left: -1.999px;
+    top: 2px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_19899 {
+    position: absolute;
+    width: 57px;
+    height: 60px;
+    left: 15px;
+    top: 10px;
+    overflow: visible;
+}
+#Text_d {
+    opacity: 0.8;
+    left: 8px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0,44,95,1);
+}
+#n_2_ {
+    left: 0px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 58px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#Minimum {
+    opacity: 0.8;
+    left: 1031px;
+    top: 447px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(242,197,19,1);
+}
+#Minimum_d {
+    opacity: 0.8;
+    left: 1503px;
+    top: 447px;
+    position: absolute;
+    overflow: visible;
+    width: 77px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#Maximum {
+    opacity: 0.8;
+    left: 1269px;
+    top: 447px;
+    position: absolute;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(242,197,19,1);
+}
+#Maximum_eb {
+    opacity: 0.8;
+    left: 1741px;
+    top: 447px;
+    position: absolute;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: center;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,44,95,1);
+}
+#n_5_sec {
+    left: 1033px;
+    top: 467px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(242,197,19,1);
+}
+#n_5_sec_ed {
+    left: 1505px;
+    top: 467px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0,44,95,1);
+}
+#n_0_sec {
+    left: 1273px;
+    top: 467px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(242,197,19,1);
+}
+#n_0_sec_ef {
+    left: 1745px;
+    top: 467px;
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0,44,95,1);
+}
+#n_20012 {
+    position: absolute;
+    left: 1000px;
+    top: 80px;
+    overflow: visible;
+}
+#n_1498 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 20px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1498 {
+    position: absolute;
+    overflow: visible;
+    width: 286px;
+    height: 286px;
+    left: 0x;
+    top: 0px;
+}
+#n_2 {
+    left: 81px;
+    top: 48px;
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(242,197,19,1);
+    letter-spacing: -0.4px;
+}
+#sec {
+    left: 117px;
+    top: 169px;
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    white-space: nowrap;
+    line-height: 60px;
+    margin-top: -18px;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(242,197,19,1);
+    letter-spacing: -0.4px;
+}
+#Ellipse_1498 {
+    fill: transparent;
+    stroke: rgba(242,197,19,1);
+    stroke-width: 20px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1498 {
+    overflow: visible;
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_20011 {
+    position: absolute;
+    width: 266px;
+    height: 266px;
+    left: 1527px;
+    top: 117px;
+    overflow: visible;
+}
+#n_1499 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 20px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.n_1499 {
+    position: absolute;
+    overflow: visible;
+    width: 286px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+}
+#n_5 {
+    left: 81px;
+    top: 48px;
+    position: absolute;
+    overflow: visible;
+    width: 105px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#sec_eo {
+    left: 117px;
+    top: 169px;
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    white-space: nowrap;
+    line-height: 60px;
+    margin-top: -18px;
+    text-align: center;
+    font-family: Nanum Barun Gothic Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0,44,95,1);
+    letter-spacing: -0.4px;
+}
+#Ellipse_1498_ep {
+    fill: transparent;
+    stroke: rgba(0,44,95,1);
+    stroke-width: 20px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1498_ep {
+    overflow: visible;
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#n_20002 {
+    position: absolute;
+    width: 146px;
+    height: 16px;
+    left: 762px;
+    top: 35px;
+    overflow: visible;
+}
+#n_19915 {
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n__es {
+    opacity: 0.8;
+    left: 18px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 52px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(60,94,133,1);
+}
+#n_20 {
+    fill: rgba(255,211,38,1);
+}
+.n_20 {
+    position: absolute;
+    overflow: visible;
+    width: 13px;
+    height: 13px;
+    left: 0px;
+    top: 3px;
+}
+#n_19916 {
+    position: absolute;
+    width: 69px;
+    height: 16px;
+    left: 77px;
+    top: 0px;
+    overflow: visible;
+}
+#n__ev {
+    opacity: 0.8;
+    left: 18px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 52px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Nanum Barun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(60,94,133,1);
+}
+#n_1500 {
+    fill: rgba(60,94,133,1);
+}
+.n_1500 {
+    position: absolute;
+    overflow: visible;
+    width: 13px;
+    height: 13px;
+    left: 0px;
+    top: 3px;
+}
