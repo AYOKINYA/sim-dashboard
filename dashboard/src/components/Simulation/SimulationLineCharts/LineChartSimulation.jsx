@@ -177,11 +177,11 @@ const LineChartSimulation = () => {
           }
         },
         yAxes: {
-          beginAtZero: true,
-          max: 100,
-          ticks: {
-          stepSize: 20,
-          },
+          // beginAtZero: true,
+          // max: 100,
+          // ticks: {
+          // stepSize: 20,
+          // },
         },
       },
 
