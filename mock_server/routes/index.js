@@ -11,9 +11,9 @@ const corsOptions = {
 router.use(cors(corsOptions));
 
 const dashboard = require('./dashboard')
-// const simulation = require('./simulation')
+const simulation = require('./simulation')
 
 router.use('/dashboard', dashboard);
-// router.use('/', simulation);
+router.use('/', simulation);
 
 module.exports = router;
