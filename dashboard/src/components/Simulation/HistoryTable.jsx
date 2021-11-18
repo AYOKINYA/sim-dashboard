@@ -193,7 +193,7 @@ const HistoryTable = (props) => {
               <span className="csv-download">
                 <CSVLink data={props.data} headers={csvHeaders} filename="simulation_history.csv" style={prettyLink}>
                 <span style={{ marginRight: "5px"}}>
-                    <img src="download-icon.svg" width="15px" height="15px"/>
+                    <img src="download-icon.svg" alt="download-icon" width="15px" height="15px"/>
                 </span>
                 Download CSV
                 </CSVLink>

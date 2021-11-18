@@ -1,17 +1,21 @@
 
 const express = require("express");
 const app = express();
-const port = 4000;
+const constants = require('./constants');
 const cors = require('cors');
 
-const server = app.listen(`${port}`, function() {
-    console.log(`Server started on port ${port}`);
-  });
+const logger = require('./logger')
+
+
+const server = app.listen(`${constants.SERVER_PORT_NO}`, function() {
+    logger.info(`Server started on port ${constants.SERVER_PORT_NO}`);
+    logger.info(`Client Addr - ${constants.CLIENT_ADDR}`);
+});
 
 const corsOptions = {
-                origin: "http://localhost:9999",
+                origin: constants.CLIENT_ADDR,
                 methods: ["GET", "POST"]
-            }
+}
 
 app.use(cors(corsOptions));
 
