@@ -29,8 +29,8 @@ const reducer = (state, action) => {
 		case 'CHANGESTATUS':
 			if (state.length !== 0 && state.filter(item => item.status === true).length === 0) {
 				return state.map(simItem => 
-					simItem.simNo != state.map(state => state.simNo)[0] ? {...simItem, status: false} 
-					: simItem.simNo == state.map(state => state.simNo)[0] ? {...simItem, status: true} : simItem);
+					simItem.simNo !== state.map(state => state.simNo)[0] ? {...simItem, status: false} 
+					: simItem.simNo === state.map(state => state.simNo)[0] ? {...simItem, status: true} : simItem);
 			} else {
 				return state.map(simItem => 
 					simItem.simNo !== action.simno ? {...simItem, status: false} 

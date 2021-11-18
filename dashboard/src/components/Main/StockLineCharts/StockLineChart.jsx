@@ -31,8 +31,10 @@ const StockLineChart = () => {
 		}
 		const interval = setInterval(async () => {
 			await fetchData(); // API call
-    }, 5000);		// every 5 sec
+    	}, 5000);		// every 5 sec
 		fetchData();
+
+		return () => clearInterval(interval);
 	}, []);
 
 	const data = {

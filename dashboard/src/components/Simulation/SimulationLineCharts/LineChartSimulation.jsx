@@ -40,7 +40,7 @@ const LineChartSimulation = () => {
       const resResult = await axios.get(process.env.REACT_APP_SERVER_ADDRESS_IP + `/simulation/history/${simNo}/comparison/results`);
       if (resReal) {
         resReal.data.forEach(item => {
-          item.workType == 'Setbox(M)' ? setMidSimulData({
+          item.workType === 'Setbox(M)' ? setMidSimulData({
             labels: Array.from(item.infos, x => x.time),
             datasets: [
               {
@@ -53,7 +53,7 @@ const LineChartSimulation = () => {
               },
             ],
         }) :
-          item.workType == 'Setbox(B)' ? setBigSimulData({
+          item.workType === 'Setbox(B)' ? setBigSimulData({
             labels: Array.from(item.infos, x => x.time),
             datasets: [
                 {
@@ -82,7 +82,7 @@ const LineChartSimulation = () => {
       }
       if (resResult) {
         resResult.data.forEach(item => {
-          item.workType == 'Setbox(M)' ? setMidSimulData(prevState => ({
+          item.workType === 'Setbox(M)' ? setMidSimulData(prevState => ({
             datasets: [...prevState.datasets, {
                 label: `시뮬레이션 #${seq}`,
                 data: Array.from(item.infos, y => y.value),
@@ -92,7 +92,7 @@ const LineChartSimulation = () => {
                 tension: 0.2,
             }]
           })) :
-          item.workType == 'Setbox(B)' ? setBigSimulData(prevState => ({
+          item.workType === 'Setbox(B)' ? setBigSimulData(prevState => ({
             datasets: [...prevState.datasets, {
                 label: `${seq}`,
                 data: Array.from(item.infos, y => y.value),
@@ -127,7 +127,7 @@ const LineChartSimulation = () => {
       simno: latestItem.simulationId,
       seq: latestItem.seq});
     }
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     const removeData = (trueArr) => {
