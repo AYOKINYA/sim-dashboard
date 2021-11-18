@@ -5,14 +5,18 @@ RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-# 서버 실행 시 필요한 패키지 다운 후 server.js 복사
-RUN npm install express cors moment --silent
+# 서버 실행 시 필요한 파일 복사하고 패키지 다운로드한다.
+RUN npm install express cors moment winston winston-daily-rotate-file --silent
+
 COPY ./server.js .
 COPY ./constants.js .
+COPY ./logger.js .
 COPY ./init.sh .
 
 RUN mkdir /usr/src/app/routes
 COPY ./routes /usr/src/app/routes/
+
+RUN mkdir /usr/src/app/logs
 
 # 4000포트 오픈하고 node.js 실행
 EXPOSE 4000

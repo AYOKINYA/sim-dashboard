@@ -4,6 +4,8 @@ var router = express.Router();
 const constants = require('../constants');
 const moment = require("moment");
 
+const logger = require('../logger')
+
 const Receiptdata = [
     {
         "boxType" : "big",
@@ -100,30 +102,35 @@ router.get("/receipttime", function (req, res) {
     res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(Receiptdata));
+    logger.info("A client requested /dashboard/receipttime");
 });
 
 router.get("/issuetime", function (req, res) {
     res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(Issuedata));
+    logger.info("A client requested /dashboard/issuetime");
 });
 
 router.get("/receiptrate", function (req, res) {
     res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(generateStockData()));
+    logger.info("A client requested /dashboard/receiptrate");
 });
   
 router.get("/receiptinfos", function (req, res) {
-res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
-res.setHeader("Content-Type", "application/json")
-res.send(JSON.stringify(goodsReceiptData));
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
+    res.setHeader("Content-Type", "application/json")
+    res.send(JSON.stringify(goodsReceiptData));
+    logger.info("A client requested /dashboard/receiptinfos");
 });
 
 router.get("/issueinfos", function (req, res) {
-res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
-res.setHeader("Content-Type", "application/json")
-res.send(JSON.stringify(goodsIssueData));
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
+    res.setHeader("Content-Type", "application/json")
+    res.send(JSON.stringify(goodsIssueData));
+    logger.info("A client requested /dashboard/issueinfos");
 });
 
 module.exports = router;

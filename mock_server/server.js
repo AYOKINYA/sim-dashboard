@@ -4,10 +4,12 @@ const app = express();
 const constants = require('./constants');
 const cors = require('cors');
 
+const logger = require('./logger')
+
 
 const server = app.listen(`${constants.SERVER_PORT_NO}`, function() {
-    console.log(`Server started on port ${constants.SERVER_PORT_NO}`);
-    console.log(`Client Addr: ${constants.CLIENT_ADDR}`);
+    logger.info(`Server started on port ${constants.SERVER_PORT_NO}`);
+    logger.info(`Client Addr - ${constants.CLIENT_ADDR}`);
 });
 
 const corsOptions = {
