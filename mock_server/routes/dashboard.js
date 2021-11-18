@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+const constants = require('../constants');
 const moment = require("moment");
 
 const Receiptdata = [
@@ -96,31 +97,31 @@ router.use(function timeLog(req, res, next) {
 });
 
 router.get("/receipttime", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(Receiptdata));
 });
 
 router.get("/issuetime", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(Issuedata));
 });
 
 router.get("/receiptrate", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(generateStockData()));
 });
   
 router.get("/receiptinfos", function (req, res) {
-res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
 res.setHeader("Content-Type", "application/json")
 res.send(JSON.stringify(goodsReceiptData));
 });
 
 router.get("/issueinfos", function (req, res) {
-res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
 res.setHeader("Content-Type", "application/json")
 res.send(JSON.stringify(goodsIssueData));
 });

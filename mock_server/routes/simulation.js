@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+const constants = require('../constants');
+
 const SimulationHistory = [
     {
         "simulationId" : 2458,
@@ -916,11 +918,11 @@ router.use(function timeLog(req, res, next) {
 });
 
 
-router.get("/simulation/history", function (req, res) {
+router.get("/history", function (req, res) {
     // add request parameter parse logic
-    console.log("request params for: /simulation/history/")
+    console.log("request params for: /history/")
     console.log(req.query)
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     if (req.query.startDate === '20211110')
         res.send(JSON.stringify(tmpHistory));
@@ -929,62 +931,62 @@ router.get("/simulation/history", function (req, res) {
         // res.send(JSON.stringify([]));
 });
 
-router.get("/simulation/history/summary", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/summary", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(SummaryData));
 });
 
-router.get("/simulation/history/2458/summary", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/2458/summary", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(SummaryData1));
 });
 
-router.get("/simulation/history/3530/summary", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/3530/summary", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(SummaryData2));
 });
 
-router.get("/simulation/history/4540/summary", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/4540/summary", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(SummaryData3));
 });
 
-router.get("/simulation/history/2458/comparison/real", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/2458/comparison/real", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(simReal2458));
 });
 
-router.get("/simulation/history/2458/comparison/results", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/2458/comparison/results", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(simResult2458));
 });
 
-router.get("/simulation/history/3530/comparison/real", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/3530/comparison/real", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(simReal3530));
 });
 
-router.get("/simulation/history/3530/comparison/results", function (req, res) {
-res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/3530/comparison/results", function (req, res) {
+res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
 res.setHeader("Content-Type", "application/json")
 res.send(JSON.stringify(simResult3530));
 });
 
-router.get("/simulation/history/4540/comparison/real", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/4540/comparison/real", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(simReal4540));
 });
 
-router.get("/simulation/history/4540/comparison/results", function (req, res) {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:9999");
+router.get("/history/4540/comparison/results", function (req, res) {
+    res.setHeader("Access-Control-Allow-Origin", constants.CLIENT_ADDR);
     res.setHeader("Content-Type", "application/json")
     res.send(JSON.stringify(simResult4540));
 });

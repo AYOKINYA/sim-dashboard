@@ -8,6 +8,7 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 # 서버 실행 시 필요한 패키지 다운 후 server.js 복사
 RUN npm install express cors moment --silent
 COPY ./server.js .
+COPY ./constants.js .
 COPY ./init.sh .
 
 RUN mkdir /usr/src/app/routes
