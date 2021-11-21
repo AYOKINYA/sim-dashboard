@@ -22,6 +22,7 @@ docker-compose up -d
 : Adobe XD에서 변환된 html & css를 가지고 시작해 수정하면서 구현함
 
 ## 1. Main Page
+http://localhost:9999/
 
 ![main.png](./images/main.png)
 
@@ -30,8 +31,9 @@ docker-compose up -d
 - 입출고 현황 Grid : 현재 시뮬레이션의 입고 현황 받아 화면 생성
 
 ## 2. Simulation Page
+http://localhost:9999/simulation
 
-![simulation.png](./images/simulation.png){: width="600" height="600"}
+![simulation.png](./images/simulation.png)
 
 - 달력 : 사용자로부터 날짜 범위를 입력 받아 해당 범위에 해당하는 시뮬레이션 이력 요청
 - History Table :
